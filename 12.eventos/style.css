@@ -1,0 +1,9 @@
+img {
+  width: 200px;
+  cursor: pointer;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: crimson;
+}
