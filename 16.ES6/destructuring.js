@@ -19,3 +19,11 @@ console.log(heroName);
 // Ejemplo #2
 const { humanName } = superheroe.name;
 console.log(humanName);
+
+// ARRAYS
+
+const numeros = [1, 2, 3, 4];
+
+const [primerNum, segundoNum, tercerNum, cuartoNum] = numeros;
+
+console.log(segundoNum);

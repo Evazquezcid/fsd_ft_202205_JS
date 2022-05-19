@@ -32,3 +32,13 @@ const segundoObjeto = {
 
 const nuevoObjeto = { ...primerObjeto, ...segundoObjeto, pelo: "Rubio" };
 console.log(nuevoObjeto);
+
+
+// SPREAD EN STRINGS
+const team = "ROCKET";
+const teamSpread = [...team];
+console.log(teamSpread);
+
+const family = "👨‍👩‍👧‍👦";
+const familySpread = [...family];
+console.log(familySpread)
