@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: black;
+  color: whitesmoke;
+}
+
+nav > h1 {
+  text-transform: uppercase;
+}
+
+.movies-gallery {
+    width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.movie-card{
+    display:flex;
+    flex-direction: column;
+    width: 15vw;
+    border: black solid 2px;
+    padding: 10px;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    text-align: center;
+}
+
+.movie-card>img{
+    border: black solid 2px;
+}
